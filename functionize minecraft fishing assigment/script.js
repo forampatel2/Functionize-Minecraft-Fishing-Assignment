@@ -57,41 +57,6 @@ function stimulateCatch(breakPoint1, breakPoint2, breakPoint3){
       pufferSpanEl.innerHTML = numPuffer;
       resultImgEl.src = "img/Pufferfish.png";
     }
-} let randNum = Math.random();
-      if (randNum < breakPoint1) {
-      numCod++;
-      codSpanEl.innerHTML = numCod;
-      resultImgEl.src = "img/Raw-Cod.png";
-    } else if (randNum < breakPoint2) {
-      numSalmon++;
-      salmonSpanEl.innerHTML = numSalmon;
-      resultImgEl.src = "img/Raw-Salmon.png";
-    } else if (randNum < breakPoint3) {
-      numTropical++;
-      tropicalSpanEl.innerHTML = numTropical;
-      resultImgEl.src = "img/Tropical-Fish.png";
-    } else {
-      numPuffer++;
-      pufferSpanEl.innerHTML = numPuffer;
-      resultImgEl.src = "img/Pufferfish.png";
-  let randNum = Math.random();
-    if (randNum < breakPoint1) {
-      numCod++;
-      codSpanEl.innerHTML = numCod;
-      resultImgEl.src = "img/Raw-Cod.png";
-    } else if (randNum < breakPoint2) {
-      numSalmon++;
-      salmonSpanEl.innerHTML = numSalmon;
-      resultImgEl.src = "img/Raw-Salmon.png";
-    } else if (randNum < breakPoint3) {
-      numTropical++;
-      tropicalSpanEl.innerHTML = numTropical;
-      resultImgEl.src = "img/Tropical-Fish.png";
-    } else {
-      numPuffer++;
-      pufferSpanEl.innerHTML = numPuffer;
-      resultImgEl.src = "img/Pufferfish.png";
-    }
 }
 // Character Select
 steveImgEl.addEventListener("click", selectSteve);
